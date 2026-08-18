@@ -884,6 +884,8 @@ section {
   font-size: 12px;
   font-weight: 750;
 
+   z-index: 2;
+
   transition:
     background 0.2s ease,
     transform 0.2s ease;
