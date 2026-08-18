@@ -172,8 +172,9 @@ button {
 
 .nav-button:hover {
   background: white;
-  color: var(--blue-800);
+  color: #0B1B33;
 }
+
 
 
 /* =========================================================
