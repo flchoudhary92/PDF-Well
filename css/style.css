@@ -786,6 +786,7 @@ section {
 
 .categories {
   background: var(--background);
+   padding-bottom: 60px;
 }
 
 .category-grid {
@@ -958,6 +959,7 @@ section {
 
 .feature {
   background: var(--background);
+     padding-top: 60px;
 }
 
 .feature-grid {
