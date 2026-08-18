@@ -891,7 +891,7 @@ section {
 
 .category-card:hover .category-link {
   background: var(--blue-700);
-  color: #ffffff !important;
+  color: #0b1b33 !important;
 
   transform: translateX(2px);
 }
