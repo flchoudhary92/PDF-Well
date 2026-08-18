@@ -172,7 +172,7 @@ button {
 
 .nav-button:hover {
   background: white;
-  color: #0B1B33;
+   color: #0B1B33 !important;
 }
 
 
