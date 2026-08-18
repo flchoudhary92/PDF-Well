@@ -911,6 +911,8 @@ section {
   bottom: -60px;
 
   background: var(--blue-50);
+
+     z-index: 1;
 }
 
 
