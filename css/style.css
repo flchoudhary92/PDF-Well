@@ -879,7 +879,7 @@ section {
   border-radius: 9px;
 
   background: var(--blue-600);
-  color: white;
+  color: #ffffff !important;
 
   font-size: 12px;
   font-weight: 750;
@@ -891,8 +891,11 @@ section {
 
 .category-card:hover .category-link {
   background: var(--blue-700);
+  color: #ffffff !important;
+
   transform: translateX(2px);
 }
+
 
 .category-decoration {
   position: absolute;
