@@ -1,34 +1,821 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>BluePrint — Digital Guides That Move You Forward</title>
+
+  <meta
+    name="description"
+    content="Premium PDF guides for fitness, parenting, finance and everyday life."
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>Your content here</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2026 My Website. All rights reserved.</p>
-    </footer>
-    
-    <script src="js/script.js"></script>
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <header class="navbar">
+    <div class="container nav-inner">
+
+      <a href="index.html" class="logo">
+        <span class="logo-mark">B</span>
+        BluePrint
+      </a>
+
+      <nav class="nav-links">
+        <a href="fitness.html">Fitness</a>
+        <a href="parenting.html">Parenting</a>
+        <a href="finance.html">Finance</a>
+        <a href="about.html">About</a>
+
+        <a href="#guides" class="nav-button">
+          Browse Guides →
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <main>
+
+    <section class="hero">
+
+      <div class="container hero-content">
+
+        <div class="hero-copy">
+
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            Practical knowledge. Beautifully packaged.
+          </div>
+
+          <h1>
+            Guides for a
+            <span>better everyday.</span>
+          </h1>
+
+          <p class="hero-description">
+            Discover thoughtfully created PDF guides designed to help you
+            build healthier habits, raise confident families, and make
+            smarter financial decisions.
+          </p>
+
+          <div class="hero-actions">
+
+            <a href="#guides" class="btn btn-primary">
+              Explore the guides
+              <span>→</span>
+            </a>
+
+            <a href="about.html" class="btn btn-secondary">
+              About BluePrint
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- HERO PDF VISUAL -->
+
+        <div class="hero-visual">
+
+          <div class="floating-card top">
+
+            <div class="floating-icon">✓</div>
+
+            <div>
+              <strong>Instant access</strong>
+              <small>Download immediately</small>
+            </div>
+
+          </div>
+
+
+          <div class="floating-card bottom">
+
+            <div class="floating-icon">★</div>
+
+            <div>
+              <strong>4.9 / 5 rating</strong>
+              <small>Loved by readers</small>
+            </div>
+
+          </div>
+
+
+          <div class="pdf-stack">
+
+            <div class="pdf-page back"></div>
+
+            <div class="pdf-page middle"></div>
+
+            <div class="pdf-page front">
+
+              <div class="pdf-cover-top">
+                BluePrint / Essential Guide
+              </div>
+
+              <div class="pdf-cover-title">
+                Build<br />
+                Better<br />
+                <span>Habits.</span>
+              </div>
+
+              <div class="pdf-cover-line"></div>
+
+              <div class="pdf-cover-shape"></div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         TRUST BAR
+    ========================== -->
+
+    <div class="trust-bar">
+
+      <div class="container">
+
+        <div class="trust-inner">
+
+          <div class="trust-item">
+            <span class="check">✓</span>
+            <span>
+              <strong>Instant downloads</strong>
+              after purchase
+            </span>
+          </div>
+
+          <div class="trust-item">
+            <span class="check">✓</span>
+            <span>
+              <strong>Practical</strong>
+              and easy to follow
+            </span>
+          </div>
+
+          <div class="trust-item">
+            <span class="check">✓</span>
+            <span>
+              <strong>Created for real life</strong>
+            </span>
+          </div>
+
+          <div class="trust-item">
+            <span class="check">✓</span>
+            <span>
+              <strong>Secure checkout</strong>
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- =========================
+         CATEGORIES
+    ========================== -->
+
+    <section class="categories">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <div class="section-label">
+            Explore topics
+          </div>
+
+          <h2 class="section-title">
+            Knowledge that fits<br />
+            your life.
+          </h2>
+
+          <p class="section-description">
+            Focused, actionable guides built around the areas
+            that matter most — without the information overload.
+          </p>
+
+        </div>
+
+
+        <div class="category-grid">
+
+          <!-- FITNESS -->
+
+          <a href="fitness.html" class="category-card">
+
+            <div class="category-icon">
+              ⚡
+            </div>
+
+            <h3>
+              Fitness
+            </h3>
+
+            <p>
+              Simple workouts, nutrition strategies and
+              habit-building guides designed to keep you moving.
+            </p>
+
+            <span class="category-link">
+              Explore fitness →
+            </span>
+
+            <div class="category-decoration"></div>
+
+          </a>
+
+
+          <!-- PARENTING -->
+
+          <a href="parenting.html" class="category-card">
+
+            <div class="category-icon">
+              ♡
+            </div>
+
+            <h3>
+              Parenting
+            </h3>
+
+            <p>
+              Practical resources to help you navigate routines,
+              relationships and the everyday challenges of parenting.
+            </p>
+
+            <span class="category-link">
+              Explore parenting →
+            </span>
+
+            <div class="category-decoration"></div>
+
+          </a>
+
+
+          <!-- FINANCE -->
+
+          <a href="finance.html" class="category-card">
+
+            <div class="category-icon">
+              ↗
+            </div>
+
+            <h3>
+              Finance
+            </h3>
+
+            <p>
+              Clear guides for budgeting, saving and building
+              better financial habits — one step at a time.
+            </p>
+
+            <span class="category-link">
+              Explore finance →
+            </span>
+
+            <div class="category-decoration"></div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FEATURED GUIDES
+    ========================== -->
+
+    <section class="products" id="guides">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <div class="section-label">
+            Featured guides
+          </div>
+
+          <h2 class="section-title">
+            Start with something<br />
+            useful.
+          </h2>
+
+          <p class="section-description">
+            Our most popular digital guides, made to give you
+            practical steps you can actually put into action.
+          </p>
+
+        </div>
+
+
+        <div class="product-grid">
+
+          <!-- FITNESS -->
+
+          <article class="product-card">
+
+            <div class="product-cover fitness">
+
+              <span class="product-tag">
+                Fitness
+              </span>
+
+              <h3>
+                The 30-Day<br />
+                Reset
+              </h3>
+
+              <div class="cover-circle"></div>
+
+            </div>
+
+            <div class="product-info">
+
+              <p>
+                A straightforward 30-day framework for rebuilding
+                your fitness routine and creating sustainable habits.
+              </p>
+
+              <div class="product-footer">
+
+                <span class="price">
+                  £12
+                </span>
+
+                <a href="fitness.html" class="buy-button">
+                  View guide →
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- PARENTING -->
+
+          <article class="product-card">
+
+            <div class="product-cover parenting">
+
+              <span class="product-tag">
+                Parenting
+              </span>
+
+              <h3>
+                Calm<br />
+                Parenting
+              </h3>
+
+              <div class="cover-circle"></div>
+
+            </div>
+
+            <div class="product-info">
+
+              <p>
+                Practical strategies for calmer routines, better
+                communication and less everyday overwhelm.
+              </p>
+
+              <div class="product-footer">
+
+                <span class="price">
+                  £10
+                </span>
+
+                <a href="parenting.html" class="buy-button">
+                  View guide →
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- FINANCE -->
+
+          <article class="product-card">
+
+            <div class="product-cover finance">
+
+              <span class="product-tag">
+                Finance
+              </span>
+
+              <h3>
+                Your Money<br />
+                Blueprint
+              </h3>
+
+              <div class="cover-circle"></div>
+
+            </div>
+
+            <div class="product-info">
+
+              <p>
+                A simple financial system for taking control of
+                spending, saving more and planning ahead.
+              </p>
+
+              <div class="product-footer">
+
+                <span class="price">
+                  £14
+                </span>
+
+                <a href="finance.html" class="buy-button">
+                  View guide →
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         WHY BLUEPRINT
+    ========================== -->
+
+    <section class="feature">
+
+      <div class="container feature-grid">
+
+        <div class="feature-visual">
+
+          <div class="feature-book">
+
+            <small>
+              BLUEPRINT / GUIDE 01
+            </small>
+
+            <h3>
+              Small<br />
+              steps.<br />
+              Big
+              <span>change.</span>
+            </h3>
+
+            <div class="line"></div>
+
+          </div>
+
+        </div>
+
+
+        <div>
+
+          <div class="section-label">
+            Why BluePrint
+          </div>
+
+          <h2 class="section-title">
+            No fluff.<br />
+            Just useful.
+          </h2>
+
+          <p class="section-description">
+            The internet is full of information. We believe the
+            hard part isn't finding more — it's knowing what to
+            actually do with it.
+          </p>
+
+
+          <div class="feature-points">
+
+            <div class="feature-point">
+
+              <div class="feature-point-icon">
+                01
+              </div>
+
+              <div>
+                <h4>
+                  Easy to understand
+                </h4>
+
+                <p>
+                  Clear language and simple frameworks without
+                  unnecessary jargon.
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="feature-point">
+
+              <div class="feature-point-icon">
+                02
+              </div>
+
+              <div>
+                <h4>
+                  Action-focused
+                </h4>
+
+                <p>
+                  Practical exercises, checklists and strategies
+                  you can use immediately.
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="feature-point">
+
+              <div class="feature-point-icon">
+                03
+              </div>
+
+              <div>
+                <h4>
+                  Made to revisit
+                </h4>
+
+                <p>
+                  Download once and keep your guides wherever
+                  you need them.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         TESTIMONIALS
+    ========================== -->
+
+    <section class="testimonials">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <div class="section-label">
+            Reader feedback
+          </div>
+
+          <h2 class="section-title">
+            Small guides.<br />
+            Real results.
+          </h2>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+          <article class="testimonial">
+
+            <div class="stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              “The finance guide finally made budgeting feel simple.
+              I've actually stuck with it for the first time.”
+            </blockquote>
+
+            <div class="person">
+
+              <div class="avatar">
+                SM
+              </div>
+
+              <div>
+                <strong>Sarah M.</strong>
+                <span>Verified reader</span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <article class="testimonial">
+
+            <div class="stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              “Really well put together. The fitness guide gave me
+              structure without making my routine complicated.”
+            </blockquote>
+
+            <div class="person">
+
+              <div class="avatar">
+                JT
+              </div>
+
+              <div>
+                <strong>James T.</strong>
+                <span>Verified reader</span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <article class="testimonial">
+
+            <div class="stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              “Beautiful, practical and genuinely useful. I keep
+              coming back to the parenting guide whenever we hit
+              a difficult week.”
+            </blockquote>
+
+            <div class="person">
+
+              <div class="avatar">
+                EL
+              </div>
+
+              <div>
+                <strong>Emma L.</strong>
+                <span>Verified reader</span>
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CTA
+    ========================== -->
+
+    <section class="cta">
+
+      <div class="container">
+
+        <div class="cta-box">
+
+          <h2>
+            One good guide can change your next step.
+          </h2>
+
+          <p>
+            Explore our collection and find a practical resource
+            for whatever you're working towards right now.
+          </p>
+
+          <a href="#guides" class="btn btn-primary">
+            Explore all guides →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="index.html" class="logo">
+            <span class="logo-mark">B</span>
+            BluePrint
+          </a>
+
+          <p>
+            Practical digital guides for building a healthier,
+            happier and more organised life.
+          </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+          <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="fitness.html">Fitness</a>
+            <a href="parenting.html">Parenting</a>
+            <a href="finance.html">Finance</a>
+
+          </div>
+
+
+          <div class="footer-column">
+
+            <h4>Company</h4>
+
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">FAQ</a>
+
+          </div>
+
+
+          <div class="footer-column">
+
+            <h4>Legal</h4>
+
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Refund policy</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          © 2026 BluePrint. All rights reserved.
+        </span>
+
+        <span>
+          Made for better everyday decisions.
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script src="js/main.js"></script>
+
 </body>
 </html>
