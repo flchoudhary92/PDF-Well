@@ -1292,8 +1292,6 @@ footer {
 
 .footer-links {
   display: flex;
-
-  gap: 80px;
 }
 
 .footer-column h4 {
