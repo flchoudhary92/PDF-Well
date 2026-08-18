@@ -120,35 +120,18 @@ button {
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-
-  gap: 10px;
-
-  color: white;
-
-  font-size: 21px;
-  font-weight: 800;
-
-  letter-spacing: -0.5px;
+  text-decoration: none;
+  line-height: 0;
 }
 
-.logo-mark {
-  width: 36px;
+.logo img {
+  display: block;
   height: 36px;
-
-  display: grid;
-  place-items: center;
-
-  border-radius: 11px;
-
-  background: white;
-  color: var(--blue-700);
-
-  font-weight: 900;
-
-  box-shadow:
-    0 8px 25px rgba(0, 0, 0, 0.12);
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
 }
 
 .nav-links {
