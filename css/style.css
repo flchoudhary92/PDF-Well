@@ -805,15 +805,13 @@ section {
   min-height: 275px;
 
   padding: 30px;
+  padding-bottom: 75px;
 
-  border-radius:
-    var(--radius-lg);
+  border-radius: var(--radius-lg);
 
   background: white;
 
-  border:
-    1px solid
-    var(--border);
+  border: 1px solid var(--border);
 
   overflow: hidden;
 
@@ -821,6 +819,7 @@ section {
     transform 0.25s ease,
     box-shadow 0.25s ease;
 }
+
 
 .category-card:hover {
   transform:
@@ -1103,6 +1102,11 @@ section {
 }
 
 .buy-button {
+  position: absolute;
+
+  bottom: 25px;
+  right: 30px;
+
   padding: 10px 15px;
 
   border-radius: 9px;
@@ -1118,6 +1122,11 @@ section {
   transition:
     background 0.2s ease;
 }
+
+.buy-button:hover {
+  background: var(--blue-700);
+}
+
 
 .buy-button:hover {
   background: var(--blue-700);
